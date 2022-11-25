@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td rowspan="2"><img src="./BSS.jpg" alt=""></td>
+            <td colspan="2">
+                <h1>Trishul Utsav</h1>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="container">
+                    <div class="content">
+                        <h2>Trishul utsav</h2>
+                        <p>Our school celebrates Trishul Utsav every year on 29th January.
+                            Trishul Utsav celebrated in the month of Poush(between mid-December to mid-January).
+                            The Trishul Utsav which marks the birth anniversary of Swami Pranavananda
+                        </p>
+                    </div>
+                    <div class="toggleBtn"></div>
+                </div>
+                <script>
+                    let toggleBtn = document.querySelector('.toggleBtn')
+                    let container = document.querySelector('.container')
+                    toggleBtn.onclick = function name(params) {
+                        container.classList.toggle('active');
+                    }
+                </script>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
